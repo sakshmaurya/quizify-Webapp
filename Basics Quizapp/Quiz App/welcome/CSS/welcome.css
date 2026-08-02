@@ -1,0 +1,67 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background: url("https://thumbs.dreamstime.com/b/concept-quiz-time-text-digital-format-business-person-175675653.jpg")no-repeat; 
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-color:#86f1f8f2;
+  align-items: center;
+  min-height: 100vh;
+}
+.row{
+background: url("https://thumbs.dreamstime.com/b/concept-quiz-time-text-digital-format-business-person-175675653.jpg")no-repeat; 
+  background-size: cover;
+}
+.guideline-box h2{
+   font-size: 25px;
+   font-weight: bold;
+   background: initial !important;
+   color: #ace7ebf2;
+}
+.guideline-box p{
+   font-size: 17px;
+   font-weight: bold;
+   color: #ace7ebf2;
+    background: initial !important;
+}
+.form-select{
+ font-weight: bold !important;
+   font-size: 18px!important;
+   background-color: initial !important
+   ;
+   border: 2px #6aa1f8f2 !important;
+   padding: 2% !important;
+    font-size: 20px !important;
+    font-weight: bold;
+   border-style: inset !important;
+   /* border-color: blue 2px !important; */
+   color: #c7e5e7f2 !important;
+   box-shadow: none !important;
+}
+option{
+    color: #000 !important;
+    background-color: rgba(251, 255, 254, 0.4) !important
+   ;
+   
+}
+.btn{
+   /* background-color: rgb(74, 173, 235) !important; */
+   font-weight: bold !important;
+   font-size: 18px!important;
+   background-color: initial !important
+   ;
+   border: 2px#6aa1f8f2 !important;
+   padding: 2% !important;
+    font-size: 20px !important;
+    font-weight: bold;
+   border-style: inset !important;
+   /* border-color: blue 2px !important; */
+   color: #86f1f8f2 !important;
+   box-shadow: none !important;
+   margin-right: 50% !important;
+}

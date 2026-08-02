@@ -1,0 +1,22 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+  background: url("https://thumbs.dreamstime.com/b/concept-quiz-time-text-digital-format-business-person-175675653.jpg")no-repeat; 
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main{
+   background-color: white;
+   padding: 20px;
+}
+.main label{
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+}

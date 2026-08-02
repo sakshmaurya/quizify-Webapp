@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://img.freepik.com/free-photo/man-with-plastic-board-close-up_23-2148910223.jpg?w=1380&t=st=1673271161~exp=1673271761~hmac=2406d9ff44e8f7358100dcf3063b0f591e0ba0417a9ebd728a42b25eadc70f37")
+    no-repeat;
+  background-size: cover;
+}
+.container {
+  /* bottom: 50% !important; */
+  /* margin: 5ch 15cm !important;
+  padding: 0px !important; */
+  /* text-align: center;
+  align: center; */
+  /* display: block !important; */
+  /* width: 1000px !important; */
+  /* text-align: center !important; */
+  /* left: 25% !important; */
+}
+.input-group-text {
+  /* background-color:  !important; */
+  color: black !important;
+  font-weight: bold !important;
+  background: inherit !important;
+  font-size: 16px !important;
+  /* border: 1px black !important; */
+}
+.btn {
+  color: black !important;
+  border: 1px solid rgb(225, 216, 216) !important;
+  border-radius: 5px 5px !important;
+  /* color: #fff !important; */
+  background-color: initial !important;
+  /* border: 1px black !important; */
+  box-shadow: none !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+}
+.form-control,
+.form-select {
+  box-shadow: none !important;
+  background-color: initial !important;
+}
+.form-select,
+.form-control,
+.input-group span,
+.btn {
+  border: 2px solid black !important;
+}
+h1,
+h2,
+button,
+a,
+b {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(
+      -225deg,
+      #f30655 0%,
+      #7d07fa 29%,
+      #f40515 67%,
+      #76dff1 90%
+    ),
+    linear-gradient(
+      rgb(97, 183, 217) 12%,
+      rgb(224, 246, 255) 20%,
+      rgb(78, 99, 132) 61%
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: wave 7000ms ease alternate infinite;
+  transition: all 1.9s ease;
+}
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50vw 10px;
+  }
+}

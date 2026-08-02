@@ -1,0 +1,518 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  /* background: url(https://4kwallpapers.com/images/wallpapers/open-book-illustration-reflection-black-background-red-3840x2160-5478.jpg)no-repeat; */
+  background-image: linear-gradient(
+    -225deg,
+    #6642e5 0%,
+    #b273f6 29%,
+    #f39ab8 67%,
+    #f1ed76 90%
+  );
+  background-size: cover;
+}
+
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 100vh;
+  background: linear-gradient(
+    -225deg,
+    #6642e5 0%,
+    #b273f6 29%,
+    #f39ab8 67%,
+    #76b8f1 90%
+  );
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 0px;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+  z-index: 1000;
+}
+
+.side-nav .profile-pic {
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.side-nav ul {
+  width: 100%;
+  margin: 20px 0px 0px;
+}
+
+.side-nav ul li {
+  border-radius: 0 !important;
+  margin: 10px 0px;
+  background-color: transparent !important;
+  font-size: 16px;
+  font-weight: bold !important;
+  color: #000;
+  transition: 0.4s ease-in-out;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  border: 2px groove rgb(251, 245, 245);
+  border-radius: 5px !important;
+}
+
+.side-nav ul li :hover {
+  background-color: #000;
+  color: floralwhite;
+}
+
+.side-nav button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  border: 2px groove rgb(251, 245, 245);
+  color: #000;
+  font-weight: bold;
+  font-size: 21px;
+  border-radius: 7px !important;
+}
+
+/* End SideNav Coding */
+
+/* Start Main-Box Coding  */
+
+.main-box .list-group li {
+  border-radius: 0 !important;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  border: 2px groove rgb(251, 245, 245);
+  border-radius: 7px 7px !important;
+}
+
+.main-box .teacher-box .content-box {
+  width: 80%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box .teacher-box .content-box .number-box {
+  width: 120px;
+  height: 120px;
+  color: #fff;
+  border: 3px solid rgb(251, 245, 245);
+  border-radius: 75px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+}
+
+/* End Main-Box Coding */
+
+/* Start Modal Coding  */
+
+.user-profile-box .modal-header {
+  background-image: linear-gradient(
+    -225deg,
+    #6642e5 0%,
+    #b273f6 29%,
+    #f39ab8 67%,
+    #f1ed76 90%
+  );
+  color: #fff;
+}
+
+.user-profile-box .profile-box {
+  width: 100%;
+  height: 300px;
+  background-color: cornsilk;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.user-profile-box .profile-box .upload-box {
+  width: 50%;
+  height: 120px;
+  background-image: url(https://www.jobstreet.com.sg/career-resources/wp-content/uploads/sites/3/2021/12/Administrative-Executive-Career-Path.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.user-profile-box .profile-box button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 35px;
+}
+
+.user-profile-box .profile-box input {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  width: 50px;
+  opacity: 0;
+}
+
+.user-profile-box .date-box {
+  width: 100%;
+  height: 150px;
+  background-color: cornsilk;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.user-profile-box .date-box .icon-box {
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(
+    -225deg,
+    #6642e5 0%,
+    #b273f6 29%,
+    #f39ab8 67%,
+    #f1ed76 90%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.user-profile-box .date-box .icon-box h3 {
+  font-weight: bold;
+}
+
+.user-profile-box .date-box .icon-box i {
+  font-size: 35px;
+  background-color: linear-gradient(
+    -225deg,
+    #6642e5 0%,
+    #b273f6 29%,
+    #f39ab8 67%,
+    #f1ed76 90%
+  );
+}
+
+.user-profile-box .date-box h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.user-profile-box .modal-footer .modal-edit {
+  width: 100px;
+  background-image: linear-gradient(
+    -225deg,
+    #6642e5 0%,
+    #b273f6 29%,
+    #f39ab8 67%,
+    #f1ed76 90%
+  );
+  color: #fff;
+  font-weight: bold;
+}
+
+/* End modal Coding */
+.visible-question i {
+  font-size: 22px;
+}
+
+.visible-question span {
+  font-size: 22px;
+}
+
+/* Start  Certificate Coding */
+.certificate-main {
+  width: 800px;
+  height: 1000px;
+  background-image: linear-gradient(
+    -225deg,
+    #6642e5 0%,
+    #b273f6 29%,
+    #f39ab8 67%,
+    #f1ed76 90%
+  );
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-0%, -0%);
+  border: 10px groove gold;
+  opacity: 0;
+  z-index: -100;
+}
+.certificate-main.active{
+  opacity: 1;
+  z-index: 100;
+  animation-name: fadeInDown;
+  animation-duration: 1s ease;
+}
+
+.certificate-main .main-box {
+  width: 100%;
+  height: 100%;
+  /*   background-image: linear-gradient(-225deg, #6642e5 0%, #b273f6 29%, #f39ab8 67%, #f1ed76 90%);
+  */
+  position: absolute;
+  top: 55px;
+  left: 0;
+  padding: 0px 50px;
+}
+.certificate-main .main-box .name-box {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.certificate-main .main-box .name-box .img-box {
+  width: 30%;
+  height: 90%;
+  /* border: 1px solid #ccc; */
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.certificate-main .main-box .name-box .img-box p {
+  font-weight: bold;
+}
+
+.certificate-main .main-box .signature-box {
+  width: 100%;
+  height: 150px;
+  border: 2px solid goldenrod;
+  display: flex;
+  justify-content: center;
+}
+.certificate-main .main-box .signature-box .sign-box {
+  width: 30%;
+  height: 100%;
+  /* border: 1px solid #ccc; */
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.certificate-main .main-box .result-img{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+.certificate-main .certificate-close-btn{
+  position: absolute;
+  right: -30px;
+  top: -40px;
+  font-size: 30px;
+  color: #fff;
+  box-shadow: none !important;
+}
+.certificate-main .certificate-close-btn:hover {
+  color: #fff;
+}
+
+/* Start Toggler Coding */
+.toggler-box {
+  opacity: 0;
+}
+
+.toggler-box .toggler-icon {
+  position: fixed;
+  padding: 15px;
+  right: 0px;
+  top: 0px;
+  z-index: 1000;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/*  End Toggler Coding */
+
+i {
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  font-size: 12vw;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(
+      -225deg,
+      #f39ab8 0%,
+      #b273f6 29%,
+      #160652 67%,
+      #f1ed76 90%
+    ),
+    linear-gradient(
+      rgb(97, 183, 217) 12%,
+      rgb(224, 246, 255) 20%,
+      rgb(78, 99, 132) 61%
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: wave 7000ms ease alternate infinite;
+  transition: all 1.9s ease;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50vw 10px;
+  }
+}
+
+h3,
+h4 {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(
+      -225deg,
+      #18effe 0%,
+      #e30606 29%,
+      #160652 67%,
+      #ed128e 90%
+    ),
+    linear-gradient(
+      rgb(54, 5, 250) 12%,
+      rgb(224, 246, 255) 20%,
+      rgb(78, 99, 132) 61%
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: wave 3000ms ease alternate infinite;
+  transition: all 0.9s ease;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50vw 10px;
+  }
+}
+
+span {
+  border-radius: 7px 7px;
+}
+
+#month {
+  font-weight: bold;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(
+      -225deg,
+      #18effe 0%,
+      #e30606 29%,
+      #160652 67%,
+      #ed128e 90%
+    ),
+    linear-gradient(
+      rgb(54, 5, 250) 12%,
+      rgb(224, 246, 255) 20%,
+      rgb(78, 99, 132) 61%
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: wave 3000ms ease alternate infinite;
+  transition: all 0.9s ease;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50vw 10px;
+  }
+}
+
+.corAns {
+  background-image: linear-gradient(
+    -225deg,
+    #6642e5 0%,
+    #b273f6 29%,
+    #f39ab8 67%,
+    #f1ed76 90%
+  );
+  color: #fff;
+}
+
+modal-update-btn {
+  width: 100px;
+  background-image: linear-gradient(
+    -225deg,
+    #6642e5 0%,
+    #b273f6 29%,
+    #f39ab8 67%,
+    #f1ed76 90%
+  );
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Start Media Qurey Coding */
+@media (max-width: 991px) {
+  .side-nav {
+    transform: translateX(-255px);
+    background-image: linear-gradient(
+      -225deg,
+      #69eacb 0%,
+      #eaccf8 48%,
+      #6654f1 100%
+    );
+  }
+
+  .side-nav.active {
+    transform: translateX(0px);
+  }
+
+  .toggler-box {
+    opacity: 1;
+  }
+}

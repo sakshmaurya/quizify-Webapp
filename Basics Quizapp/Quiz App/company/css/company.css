@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: auto;
+  background: url(https://img.freepik.com/free-vector/pastel-pink-purple-gradient-blur-background_53876-115211.jpg?w=360)no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 0px;
+}
+
+.main-box{
+  width: 80%;
+  height: auto;
+  background: url(https://www.pragmatisch.co.in/images/about.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  padding: 30px ;
+} 
+
+.main-box .navbar{
+  border-radius: 25px !important;
+}
+
+.main-box .navbar .navbar-brand{
+  font-size: 25px !important;
+  font-weight: bold !important;
+  color: rgb(14, 14, 242);
+}
+
+.main-box .navbar .nav-link{
+  font-weight: bold;
+  color: rgb(14, 14, 242)!important;
+  font-family: sans-serif !important;
+}
+
+.main-box .navbar .nav-link.btn{
+  background-color: rgb(14, 14, 242)!important;
+  color: #fff!important;
+  border-radius: 10px;
+}
+
+/* Login Coding & Signup Coding Start */
+.main-box .login-box,.main-box .signup-box{
+  width: 80%;
+}
+
+.main-box .login-box h1, .main-box .signup-box h1{
+  color: rgb(14, 14, 242)!important;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.main-box .login-box label, .main-box .signup-box label{
+  color: rgb(14, 14, 242)!important;
+  font-family: sans-serif;
+}
+
+.main-box .login-box input, .main-box .signup-box input, .main-box  .signup-box textarea{
+  border: none;
+  background-color: inherit;
+  border-bottom: 2px solid rgb(14, 14, 242);
+  box-shadow: none;
+}
+
+.main-box .login-box button, .main-box .signup-box button{
+  background-color: rgb(14, 14, 242) !important;
+  border-radius: 10px;
+  color: #fff;
+  font: size 22px; 
+  font-family: sans-serif;
+}
+
+.main-box .login-box{
+  display:none;
+  height: 0;
+}
+
+.main-box .login-box.active{
+  display: block;
+  height: auto;
+  
+} 
+.main-box .signup-box{
+  display: none;
+  height: 0;
+}
+
+.main-box .signup-box.active{
+  display: block;
+  height: auto;
+}
